@@ -31,17 +31,20 @@ h1 {
   text-transform: uppercase;
   opacity: 0;
 }
-.expand{
+
+.expand {
   letter-spacing: .5em;
 }
-.card{
+
+.card {
   color: white;
   background-color: black;
   padding: .2em 1em;
   border-radius: 10px;
 }
+
 .panel {
-  
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -60,33 +63,38 @@ h1 {
 
 .active h1 {
   opacity: 1;
-  transition: opacity  .3s ease-in .4s;
+  transition: opacity .3s ease-in .4s;
 }
 
 
-@media only screen and (max-width: 880px){
-  .container{
+@media only screen and (max-width: 880px) {
+  .container {
     width: 95vw;
   }
-  .panel:nth-of-type(4){
+
+  .panel:nth-of-type(4) {
     display: none;
   }
- 
-  
+
+
 }
 
-@media only screen and (max-width: 480px){
-  .container{
+@media only screen and (max-width: 480px) {
+  .container {
     width: 100vw;
   }
-  .panel:nth-of-type(4),   .panel:nth-of-type(5){
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
     display: none;
   }
-  h1{
+
+  h1 {
     font-size: 1em;
   }
- .panel{
-   margin: 0.5em
- }
-  
+
+  .panel {
+    margin: 0.5em
+  }
+
 }
